@@ -200,7 +200,8 @@ text-align: center;
            }
            #Portfolio .content .logo{
                position: relative;
-               margin-bottom: 27px;
+               margin-bottom: 50px;
+               margin-top: 5px;
            }
          
            #Portfolio{
@@ -211,12 +212,13 @@ text-align: center;
         opacity:1;
         }
         #Portfolio .content .logo .layout i{
+            display: none;
             color: #FF305b;
             cursor: pointer;
             position: absolute;
             bottom: 5px;
             right: 0;
-            } */ 
+            } 
             #Portfolio img{
                 position: relative;
                 margin-top: 35px !important;
@@ -236,7 +238,7 @@ text-align: center;
                 padding: 0 !important;
             }
             .logo{
-                margin-top: 20px;
+                margin-top: 5px;
             }
             #Portfolio .content .nav-tabs .nav-link{
                 padding: 15px;
@@ -290,7 +292,7 @@ footer .foot{
 }
 footer p{
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
 }
 .logos{
     position:fixed;
@@ -392,4 +394,5 @@ footer p{
   }
   .popup{
     margin-top: 50px;
+    width: 2%;
   }
