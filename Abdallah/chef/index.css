@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .row .col-6 {
+    flex: 0 0 50%;
+    margin: 10px 0px;
+  }
+  
+  .container {
+   background-image: url("shutterstock_277750193.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+  
+  .container .box {
+    width: 300px;
+    height: 400px;
+    /* background-color: #09c; */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .container .box .front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition-duration: 2s;
+    /* transform: rotateY(180deg); */
+  }
+  
+  .container .box img {
+    width: 100%;
+  }
+  
+  .container .box .back {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition-duration: 2s;
+    transform: rotateY(-180deg);
+    /* transform: rotateY(0deg); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .container .box .back h1 {
+    background-color: rgb(42, 63, 85);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    position: relative;
+    left: 100%;
+    z-index: 5;
+  }
+  
+  .container .box .back p {
+    width: 90%;
+    position: relative;
+    left: 100%;
+    z-index: 5;
+    padding: 10px 0px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .container .back h3 {
+    position: relative;
+    z-index: 5;
+    color: #0f0;
+    transform: scale(0);
+    
+  }
+  
+  .container .back .item {
+    margin: 10px;
+    transform: scale(0);
+    position: relative;
+    z-index: 5;
+  }
+  
+  .container .back .item p {
+    background-color: #0f0;
+  }
+  
+  .container .box .back::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    background-color: rgba(42, 63, 85, 0.7);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .container .box:hover .front {
+    transform: rotateY(180deg);
+  }
+  
+  .container .box:hover .back {
+    transform: rotateY(0deg);
+  }
+  
+  .container .box:hover .back::after {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    transition-duration: 2s;
+    transition-delay: 2s;
+  }
+  
+  .container .box:hover .back h1 {
+    transition-duration: 2s;
+    transition-delay: 4s;
+    left: 0px;
+  }
+  
+  .container .box:hover .back p {
+    transition-duration: 2s;
+    transition-delay: 5s;
+    left: 0px;
+  }
+  
+  .container .box:hover .back h3 {
+    transition-delay: 7s;
+    transition-duration: 1s;
+    transform: scale(1);
+  }
+  
+  .container .box:hover .back .row .col-6:nth-of-type(1) .item {
+    transition-delay: 8s;
+    transition-duration: 1s;
+    transform: scale(1);
+  }
+  
+  .container .box:hover .back .row .col-6:nth-of-type(2) .item {
+    transition-delay: 8.2s;
+    transition-duration: 1s;
+    transform: scale(1);
+  }
+  
+  .container .box:hover .back .row .col-6:nth-of-type(3) .item {
+    transition-delay: 8.4s;
+    transition-duration: 1s;
+    transform: scale(1);
+  }
+  
+  .container .box:hover .back .row .col-6:nth-of-type(4) .item {
+    transition-delay: 8.6s;
+    transition-duration: 1s;
+    transform: scale(1);
+  }

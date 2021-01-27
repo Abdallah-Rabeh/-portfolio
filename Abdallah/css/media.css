@@ -1,0 +1,183 @@
+@media (max-width: 1300px) {
+    .Edit-control {
+        visibility: hidden;
+    }
+    .downloader {
+        display: none;
+    }
+    .Buy {
+        display: none;
+    }
+    .Back {
+        visibility: hidden;
+        
+    }
+    .nav-link{
+        color: #000 !important;
+    }
+    .cat-1{
+        opacity: 1;
+    }
+    .cat-2{
+        opacity: 0;
+        margin-top: -50px;
+    }
+    .navbar .navbar-collapse{
+        color: #000;
+        background-color: white;
+        text-align: center;
+    }
+    .title,.headline{
+        font-size: 30px;
+    }
+    #About-us .h1,#About-us h4{
+        font-size:  25px;
+    }
+    .icon-circle{
+        margin: auto;
+    }
+    .icon-title{
+        text-align: center;
+    }
+     .cat-14{
+        font-size: 22px;
+        color: #000 !important;
+    }
+    .vip-2 h2{
+        font-size: 25px;
+    }
+    .vip-2 h4 {
+        font-size: 22px;
+    }
+    
+
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    .Edit-control {
+        visibility: hidden;
+    }
+    .downloader {
+        display: none;
+    }
+    .Buy {
+        display: none;
+    }
+    .Back {
+        visibility: hidden;
+        
+    }
+    .navbar .navbar-collapse{
+        color: #000;
+        background-color: white;
+        text-align: center;
+    }
+    .cat-1{
+        opacity: 1;
+    }
+    .cat-2{
+        opacity: 0;
+        margin-top: -50px;
+    }
+    .icon-circle{
+        margin: auto;
+    }
+    .icon-title{
+        text-align: center;
+    }
+}
+ 
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    .nav-link{
+        color: #000;
+    }
+    .navbar .navbar-collapse{
+        background: white;
+    }
+    .cat-1{
+        opacity: 1;
+    }
+    .cat-2{
+        opacity: 0;
+        
+    }
+    .title,.headline{
+        font-size: 30px;
+    }
+    #About-us .h1,#About-us h4{
+        font-size:  27px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+    .nav-link{
+        color: #000;
+    }
+    .navbar .navbar-collapse{
+        background: white;
+    }
+    .cat-1{
+        opacity: 1;
+    }
+    .cat-2{
+        opacity: 0;
+        
+    }
+    .car{
+        margin-top: 120px;
+    }
+    .title,.headline{
+        font-size: 30px;
+    }
+    #About-us .h1,#About-us h4{
+        font-size:  27px;
+    }
+    .vip h5{
+        font-size: 15px;
+    }
+    .vip h3{
+        font-size: 17px;
+    }
+    .vip p{
+        font-size: 12px;
+       
+    }
+   
+}
+
+
+@media (min-width: 993px) and (max-width: 1300px) {
+    .navbar .navbar-collapse{
+        background: none !important;
+        
+    }
+    .nav-link{
+        color: #FFF !important;
+    } 
+    .cat-1{
+        opacity: 0;
+    }
+    .cat-2{
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+    .navbar .navbar-collapse{
+     background: none;
+    
+    }
+    .nav-link{
+        color: #ffff !important;
+    }
+    .cat-1{
+        opacity: 0;
+    }
+    .cat-2{
+        opacity: 1;
+    }
+}

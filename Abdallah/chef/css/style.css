@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing-: border-box;
+    -moz-box-sizing-: border-box;
+    -ms-box-sizing-:border-box;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;  
+
+}
+body{
+    height: auto;  
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    background-image: url("../images/aa.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+}
+button:focus
+{
+    outline: none;
+}
+header nav{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 19px;
+    transition: all 1s ease-in-out;
+}
+.nav-link:hover{
+    color: red !important;
+}
+.navbar-collapse{
+    text-align: center !important;
+}
+.cat{
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 40px;
+    
+}
+.cat h1{
+    font-size: 40px;
+    
+}
+.cat p{
+    margin: 20px 0px;
+    font-size: 50px;
+    font-family: Dancing Script, cursive;
+}
+.cat button{
+    border: none;
+    padding: 15px 30px;
+}
+.cat .btn1{
+    background-color: #b48e58;
+}
+.logo{
+    width: 300px;
+}
+.content{
+    color: #000;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.content h5{
+    font-size: 20px;
+    color: #b48e58;
+}
+.content h2{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.content p{
+    width: 80%;
+    margin: 20px auto;
+}
+.content button{
+    border: none;
+    padding: 15px 30px;
+    min-width: 90px;
+    height: 50px;
+    background-color: #B8860B;
+    border-radius: 30px;
+}
+.cats{
+    width: 24%;
+    background-color: #B48E58;
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+
+}
+.cats img{
+    border-radius: 50%;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.cats p{
+    margin: 10px;
+}
+.cats button{
+    padding: 10px 20px;
+    border: 1px solid #B8860B;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.navbar-light .navbar-toggler-icon{
+    background-color: #fff;
+    border-radius: 50%;
+}
