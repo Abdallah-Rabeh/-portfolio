@@ -203,7 +203,7 @@ color: #353C4E;}
     color: #000;
     letter-spacing: 1px;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 80px !important;
     resize: none;
 }
 .w-1{

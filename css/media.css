@@ -6,14 +6,6 @@
     font-size: 20px;
   }
  
-  #About .download-cv-btn{
-    display: flex;
-    justify-content:start;
-    
-  }
-  #About .download-cv-btn>a{
-    text-decoration: none;
-  }
   .header h2{
     font-size: 32px;
   }
@@ -21,13 +13,7 @@
     color: #000;
   }
   
-  
-  #About{
-    display: flex;
-  }
-  #About h2{
-    margin-top:20px;
-  }
+
   .ul{
     margin-right:200px;
     padding-right:40px;
@@ -36,14 +22,13 @@
   .a2{
     flex-wrap: wrap;
   }
-  #About .box >h2::after{
-    text-align: center;
-    left: 30%;
+  #About p{
+    line-height: normal;
+    letter-spacing: 0;
+    font-size: 20px;
+    color: #333;
   }
-  #About .box >h2{
-    text-align: center;
-    
-  }
+ 
 }
 @media (min-width: 371px) and (max-width: 1300px){
 
@@ -87,14 +72,6 @@ font-size: 20px;
     }
   header nav .navbar-collapse{
     background-color: none !important;
-  }
-  #About .box >h2::after{
-    text-align: center;
-    left: 0%;
-  }
-  #About .box >h2{
-    left: 0%;
-    text-align: start;
   }
  .foot{
    font-size: 100%;

@@ -1,4 +1,5 @@
 "use strict";
+// Start plagin
 new WOW().init();
  $("body").niceScroll({
     cursorcolor:"#ff305b",
@@ -16,6 +17,21 @@ $("#lambe").click(function(){
     $(".layout").toggleClass("fot-1")
 
 })
+$('.conten').countTo({
+    from: 0,
+    to: 5000,
+    speed: 3500,
+    refreshInterval: 40,
+});
+$('.about-text h2').funnyText({
+    speed: 400,
+    borderColor: 'black',
+    activeColor: '#00f',
+    color: 'blue',
+    fontSize: '40px',
+    direction: 'vertical'
+});
+// End plagin
 //Start NAV
 $("nav .navbar-toggler").click(function(){
     let that = this;
