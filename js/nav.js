@@ -1,13 +1,6 @@
 "use strict";
 // Start plagin
 new WOW().init();
- $("body").niceScroll({
-    cursorcolor:"#ff305b",
-    cursorwidth:"20px",
-    background:"#fff",
-    cursorborderradius:"20px",
-    cursoropacitymin:0.4
-});
 $("header").niceScroll({
     cursor:"none",
 })
