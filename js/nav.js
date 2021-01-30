@@ -1,5 +1,19 @@
 "use strict";
 new WOW().init();
+ $("body").niceScroll({
+     cursorcolor:"#ff305b",
+     cursorwidth:"16px",
+     background:"#fff",
+     cursorborderradius:0
+});
+$("header").niceScroll({
+    cursor:"none",
+})
+$(".fit").fitText(0.8, { minFontSize: '40px', maxFontSize: '100px' });
+$("#lambe").click(function(){
+    $("#lambe").toggleClass("fot")
+    $(".layout").toggleClass("fot-1")
+})
 //Start NAV
 $("nav .navbar-toggler").click(function(){
     let that = this;

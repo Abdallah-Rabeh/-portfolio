@@ -12,14 +12,13 @@
   box-sizing: border-box;
 }
 html{
-scroll-behavior: smooth;  
-overflow: auto;
+scroll-behavior: smooth;
 }
 body{
     height: auto;  
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 button:focus
@@ -37,7 +36,7 @@ header{
    align-items: center;
     position: relative;
 }
-/* header .layout{
+header .layout{
     position: absolute;
     top: 0%;
     left:0%;
@@ -45,7 +44,7 @@ header{
    height: 100%;
    background-color: rgba(0, 0,0,0.8);
    
-} */
+}
 header .box-1{
     text-align: center;
     color: #fff;
@@ -55,12 +54,18 @@ header .cd-headline{
     font-size: 35px;
 }
 header h1{
-    font-size: 40px;
+    font-size: 100px;
     font-weight: bolder;
     color: #FF305b;
 }
 header h4{
     font-size:20px;
+}
+.fot{
+    color: #ffd43b !important;
+}
+.fot-1{
+    background: none !important;
 }
 header li:focus{
     color: #ff305b;

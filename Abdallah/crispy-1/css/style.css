@@ -10,7 +10,6 @@
 *::before,
 *::after {
   box-sizing: border-box !important;
-  overflow-x: hidden;
 }
 html{
     scroll-behavior: smooth;

@@ -16,11 +16,16 @@
     <script src="js/Respond.js"></script>
 </head>
 <body>
-    <header style="width: 100%;">
+    <header style="width: 100%;" id="header">
       <!-------------start Our navbar------------------>
       <nav class="navbar navbar-expand-lg navbar-light fixed-top">
           <div class="container">
-            <a class="navbar-brand" href="#">Abdallah Rabeh</a>
+            <a class="navbar-brand" href="#">
+            <i class="fas fa-lightbulb" id="lambe"
+                   style="
+                  color: #fff;
+                  font-size: 25px;
+            margin-top: 5px; margin-left: 10px;">Abdallah Rabeh</i></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="top"></span>
               <span class="span"></span>
@@ -35,12 +40,10 @@
               
                 <li class="nav-item">
                         <a class="nav-link" data-section="Skills">Skills</a>
-                </li>
-                      
+                </li>  
                 <li class="nav-item">
                         <a class="nav-link" data-section="Portfolio">Portfolio</a>
                 </li>
-              
               </ul>
             </div>
         </div>
@@ -50,7 +53,7 @@
         <div class="layout"></div>
         <div class="box-1">
           <h4>Hello i'm</h4>
-          <h1 class="wow flash" data-wow-iteration="10"> Abdallah Rabeh</h1>
+          <h1 class="wow flash fit" data-wow-iteration="10" > Abdallah Rabeh</h1>
               <p class="cd-headline clip is-full-width">
                     <span>Professional Web</span>
                     <span class="cd-words-wrapper">
@@ -180,7 +183,7 @@
         </div>
       </div>    
     </section>
-    <section id="Portfolio" class="py-5">
+    <section id="Portfolio" data-scroll class="py-5">
       <div class="container">
           <div class="col-md-12">
               <div class="Our Services">
@@ -488,8 +491,10 @@
     <script src="js/jquery-ui.js"></script>    
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.nicescroll.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
     <script src="js/nav.js"></script>
 </body>
 </html>
