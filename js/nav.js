@@ -1,18 +1,20 @@
 "use strict";
 new WOW().init();
  $("body").niceScroll({
-     cursorcolor:"#ff305b",
-     cursorwidth:"16px",
-     background:"#fff",
-     cursorborderradius:0
+    cursorcolor:"#ff305b",
+    cursorwidth:"20px",
+    background:"#fff",
+    cursorborderradius:"20px",
+    cursoropacitymin:0.4
 });
 $("header").niceScroll({
     cursor:"none",
 })
-$(".fit").fitText(0.8, { minFontSize: '40px', maxFontSize: '100px' });
+$(".fit").fitText(0.8, { minFontSize: '20px', maxFontSize: '80px' });
 $("#lambe").click(function(){
     $("#lambe").toggleClass("fot")
     $(".layout").toggleClass("fot-1")
+
 })
 //Start NAV
 $("nav .navbar-toggler").click(function(){
