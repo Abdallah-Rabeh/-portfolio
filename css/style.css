@@ -61,8 +61,50 @@ header h1{
 header h4{
     font-size:20px;
 }
+#lambe{
+    color: #FFF;
+    
+    font-size: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all 1s;   
+    animation: lambe 1s linear infinite;
+    }
+    @keyframes lambe{
+        0%{
+         transform: scale(1.1);
+          box-shadow: 0 0 2520px rgba(176,255,95,1),
+                        0 0 124px rgba(176,255,95,1)
+                 0 0 2240px rgba(176,255,95,1),
+        }
+        25%{
+         transform: scale(1.2);
+          box-shadow: 0 0 2520px rgba(176,255,95,1),
+                        0 0 124px rgba(176,255,95,1)
+                 0 0 2240px rgba(176,255,95,1),
+        }
+        50%{
+         transform: scale(1.3);
+          box-shadow: 0 0 2520px rgba(176,255,95,1),
+                        0 0 124px rgba(176,255,95,1)
+                      0 0 2240px rgba(176,255,95,1),
+        }
+        75%{
+         transform: scale(1.4);
+          box-shadow: 0 0 2520px rgba(176,255,95,1),
+                        0 0 124px rgba(176,255,95,1)
+                 0 0 2240px rgba(176,255,95,1),
+        }
+        100%{
+         transform: scale(1.5);
+          box-shadow: 0 0 2520px rgba(176,255,95,1),
+                        0 0 124px rgba(176,255,95,1)
+                 0 0 2240px rgba(176,255,95,1),
+        }
+    }
 .fot{
-    color: #ffd43b !important;
+    color: rgba(176,255,95,1) !important; 
 }
 .fot-1{
     background: none !important;
@@ -79,6 +121,9 @@ header .nav-link li a:focus li a:hover
     margin-bottom: 1px;
     color: #ff305b;
     transition: all 1s ease-in-out;
+}
+.nav-item{
+    margin-left: 10px !important;
 }
 header nav.navbar.navbar-light{
    
@@ -124,7 +169,11 @@ header nav .navbar-brand span{
     transition: all 1s ease-in-out;
     
 }
-
+.A0{
+    font-weight: bold !important;
+    font-style: 40px !important;
+    line-height: 20px !important;
+}
 .navbar-toggler{
     border:1px solid#fff
 }
@@ -165,7 +214,7 @@ margin: auto;
     height: 2px;
     background-color: hsl(348, 100%, 59%);
 }
-.header span.middle
+/* .header span.middle
 {
     width: 75%;
     margin:auto;
@@ -173,6 +222,9 @@ margin: auto;
 {
     width: 50%;
     margin:4px auto;
+} */
+#About{
+    background-color: #0099ff;
 }
 #About h2{
     font-size: 35px;
@@ -191,6 +243,9 @@ margin: auto;
 #About img{
     max-width: 50%;
 }
+#Skills{
+    background-color: #FF305b;
+}
 #Skills .web,
 #Portfolio .web{
 padding: 20px 10px;
@@ -200,6 +255,8 @@ text-align: center;
 #Skills .web{
     background-color: #FFF;
     margin-top: 15px;
+    border-radius: 15%;
+    overflow: hidden;
     
 }
 #Skills .web h2{
@@ -337,7 +394,7 @@ footer p{
     }
   }
   .Scroll-top{
-  background-color: #333;
+  background-color: #FF305b;
   color: #fff;
   display: block;
   position: fixed;
