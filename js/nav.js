@@ -23,7 +23,6 @@ $('.about-text h2').funnyText({
 });
 // End plagin
 //Start NAV
-
 $("nav .navbar-toggler").click(function(){
     let that = this;
     if($(this).attr('aria-expanded')=="false"){

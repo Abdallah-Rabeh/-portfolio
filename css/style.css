@@ -14,11 +14,9 @@
 html{
 scroll-behavior: smooth;
 }
-body{
-    height: auto;  
+body{  
     margin: 0;
     padding: 0;
-    overflow: auto;
 }
 
 button:focus
@@ -411,7 +409,7 @@ footer p{
     cursor: pointer;
     font-size: 20px;
 }
-.logos{
+ .logos{
     position:fixed;
     top: 0; left: 0;
     width: 100%;
@@ -626,6 +624,6 @@ footer p{
       -webkit-transform: scale(1);
               transform: scale(1);
     }
-  }
+  } 
  
   
