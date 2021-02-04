@@ -83,7 +83,6 @@ $(".scroll_top").click(function(e){
             }
         }
     });
-    $("body").css('marginTop',$('nav').innerHeight());
     $("header").css('height',$("window").innerHeight() - $("nav").innerHeight());
     // 
 
