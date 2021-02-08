@@ -1,4 +1,7 @@
 @media (max-width: 1300px){
+    h1{
+        font-size: 50px;
+    }
     .text-header{
         h2{
             font-size: 18px;
@@ -28,6 +31,9 @@
         }
 }
 @media (min-width: 371px) and (max-width: 1300px){
+    h1{
+        font-size: 50px;
+    }
     header{
         nav{
         .navbar-brand{
